@@ -13,8 +13,7 @@ Dashboard Analytics Pro est une application web professionnelle qui présente de
 
 **🔗 Liens du projet :**
 
-- 🌐 **Demo Live** : [Bientôt disponible]
-- 💻 **GitHub** : [dashboard-analytics](https://github.com/mekid-asmaa-hayat/dashboard-analytics)
+- 💻 **GitHub** : https://github.com/mekid-asmaa-hayat/dashboard-analytics
 - 📧 **Contact** : mekidasmaahayat1@gmail.com
 
 ## ✨ Fonctionnalités
