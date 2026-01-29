@@ -11,8 +11,6 @@ Un dashboard analytics moderne et professionnel construit avec **Next.js 15**, *
 
 Dashboard Analytics Pro est une application web professionnelle qui présente des données analytiques de manière interactive et visuellement attrayante. Conçu pour démontrer l'utilisation des meilleures pratiques de développement web moderne.
 
-**🔗 Liens du projet :**
-
 - 💻 **GitHub** : https://github.com/mekid-asmaa-hayat/dashboard-analytics
 - 📧 **Contact** : mekidasmaahayat1@gmail.com
 
@@ -235,12 +233,6 @@ Les contributions, issues et demandes de fonctionnalités sont les bienvenues ! 
 - 💻 GitHub : https://github.com/mekid-asmaa-hayat
 - 📧 Email : mekidasmaahayat1@gmail.com
 - 🔗 LinkedIn : linkedin.com/in/mekid-asma-hayet-014850222
-
-## 🔗 Autres projets
-
-Découvrez mes autres projets :
-
-- [FitGlow – Fitness Website](https://github.com/mekid-asmaa-hayat/Projet-Bootstrap) - Site web fitness avec Bootstrap 5
 
 ---
 
