@@ -1,4 +1,4 @@
-// Types pour le Dashboard Analytics
+
 
 export interface User {
   id: string;
