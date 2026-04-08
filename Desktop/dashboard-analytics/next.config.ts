@@ -39,9 +39,9 @@ const nextConfig: NextConfig = {
   },
 
   // Optimisation du build
-  swcMinify: true,
   
-  // Variables d'environnement exposées côté client
+  
+  // Variables d'environnement exposées côté client//
   env: {
     CUSTOM_KEY: process.env.CUSTOM_KEY || '',
   },
