@@ -1,4 +1,5 @@
 // src/app/(public)/doctors/page.tsx
+export const dynamic = "force-dynamic";
 import { Suspense } from "react";
 import { prisma } from "@/lib/prisma";
 import { DoctorCard } from "@/components/doctors/DoctorCard";

@@ -1,4 +1,5 @@
 // src/app/(dashboard)/admin/patients/page.tsx
+export const dynamic = "force-dynamic";
 import { auth } from "@/lib/auth";
 import { redirect } from "next/navigation";
 import { prisma } from "@/lib/prisma";
