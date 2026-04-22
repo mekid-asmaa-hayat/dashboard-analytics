@@ -1,7 +1,9 @@
 // src/app/(auth)/login/page.tsx
 "use client";
+export const dynamic = "force-dynamic";
 import { useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
+
 import Link from "next/link";
 import { signIn } from "next-auth/react";
 import { useForm } from "react-hook-form";
@@ -13,7 +15,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { loginSchema, type LoginInput } from "@/lib/validations/auth";
 import { Loader2, Eye, EyeOff } from "lucide-react";
 
-export default function LoginPage() {
+// ✅ Composant séparé qui utilise useSearchParams
+function LoginForm() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const callbackUrl = searchParams.get("callbackUrl") ?? "/dashboard";
@@ -104,7 +107,6 @@ export default function LoginPage() {
           </Link>
         </div>
 
-        {/* Demo credentials */}
         <div className="mt-6 rounded-md bg-muted p-3 text-xs space-y-1">
           <p className="font-semibold text-muted-foreground">Demo accounts:</p>
           <p>Admin: <code>admin@medischedule.com</code> / <code>Admin1234!</code></p>
@@ -114,5 +116,14 @@ export default function LoginPage() {
         </div>
       </CardContent>
     </Card>
+  );
+}
+
+// ✅ Page principale avec Suspense
+export default function LoginPage() {
+  return (
+    <Suspense fallback={<div className="flex items-center justify-center min-h-screen">Chargement...</div>}>
+      <LoginForm />
+    </Suspense>
   );
 }
